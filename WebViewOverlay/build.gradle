@@ -1,8 +1,8 @@
 apply plugin: 'com.android.library'
 
 ext {
-    bintrayRepo = 'WebViewOverlay'
-    bintrayName = 'WebViewOverlay'
+    bintrayRepo = 'maven'
+    bintrayName = 'maven'
 
     publishedGroupId = 'org.ptyagicodecamp'
     libraryName = 'WebViewOverlay'
@@ -10,14 +10,14 @@ ext {
 
     libraryDescription = 'A widget to load WebView as an Overlay.'
 
-    siteUrl = ''
-    gitUrl = ''
+    siteUrl = 'https://github.com/itvignes09/WebViewOverlay'
+    gitUrl = 'https://github.com/itvignes09/WebViewOverlay.git'
 
     libraryVersion = '1.0.2'
 
-    developerId = 'itvignes09'
+    developerId = 'powerupcloudtech'
     developerName = 'vigneswaran a'
-    developerEmail = 'itvignes09@gmail.com'
+    developerEmail = 'vignesh.m@powerupcloud.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
